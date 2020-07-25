@@ -1,0 +1,189 @@
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+  height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  line-height: 2;
+  margin: 65px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border: dotted #E0E0E0 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+#navbar {
+  background-color: #E4F9F5;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #3C9090;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #3C9090;
+  color: #E4F9F5;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+  color: #40514E;
+}
+
+.skills-img {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.skills-img-middle {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 50%;
+}
+
+#welcome-section {
+  height: 100vh;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+}
+
+.projects {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.project-1 img, .project-2 img, .project-3 img, .project-4 img {
+  width: 85%;
+}
+
+.skills h2, .projects-work h2 {
+  padding: 40px;
+  margin: 20px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 30px;
+  padding: 50px 0 20px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contac-message {
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+.btn {
+  background-color: #48ADAD;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px 0 grey;
+  color: white;
+  /*margin: 20px auto 80px;*/
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #3C9090;
+}
+
+@media (max-width: 830px) {
+  .skills-img, .skills-img-middle {
+    width: 30%;
+    float: left;
+    margin: 30px;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 830px) {
+  .skill-row {
+    width: 100%;
+    /*margin: 50px auto 50px auto;*/
+    text-align: left;
+    line-height: 2;
+    color: #40514E;
+  }
+}
+
+@media (max-width: 830px) {
+  .projects {
+    display: block;
+  }
+}
