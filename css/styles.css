@@ -162,7 +162,7 @@ li a:hover {
   background-color: #3C9090;
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 830px) {
   body {
     font-size: 15px;
     margin: 0;
@@ -171,7 +171,7 @@ li a:hover {
   }
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 830px) {
   h1 {
     font-size: 80px;
     margin-top: 60px;
@@ -179,20 +179,20 @@ li a:hover {
   }
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 830px) {
   .intro {
     width: 40%;
     padding-bottom: 20px;
   }
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 830px) {
   .skill-row {
     width: 90%;
   }
 }
 
-@media (max-width: 1800px){
+@media (max-width: 830px){
   .projects {
     display: block;
   }
